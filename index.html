@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Portfolio</h1>
+                       <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <div class="profile-wrapper">
+                <img src="https://i.pinimg.com/originals/6d/5f/c6/6d5fc60bae3dc6139eefa31af206596f.jpg" class="profile-pic">
+                <div class="bio">
+                    <h2>About Me</h2>
+                    <p>CSE Student Studing at Vignan's University</p>
+                    <ul class="personal-info">
+                        <li><strong>Name:</strong> BOYINA SRINU BABU</li>
+                        <li><strong>Profession:</strong> Student</li>
+                        <li><strong>Location:</strong> Pedagollapalem,Andhra Pradesh,India</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-wrapper">
+                <div class="skill">
+                    <h3>HTML</h3>
+                    <div class="progress-circle" data-progress="80"></div>
+                </div>
+                <div class="skill">
+                    <h3>CSS</h3>
+                    <div class="progress-circle" data-progress="80"></div>
+                </div>
+                <div class="skill">
+                    <h3>JavaScript</h3>
+                    <div class="progress-circle" data-progress="70"></div>
+                </div>
+                <!-- Add more skills as needed -->
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <article class="project">
+                    <img src="C:\Users\chund\Desktop\221FA04690\SmartNews.png" alt="Project 1">
+                    <h3>News Aggregator</h3>
+                    <p>The function of a news aggregator is to collect information from various feeds and sources for display on a single platform.</p>
+                    <a href="https://example.com" target="_blank">View Demo</a>
+                </article>
+                <article class="project">
+                    <img src="C:\Users\chund\Desktop\221FA04690\ms.jpg" alt="Project 2">
+                    <h3>Movie Recommendation System</h3>
+                    <p>Movie recommender systems are intelligent algorithms that suggest movies for users to watch based on their previous viewing behavior & preferences</p>
+                    <a href="https://example.com" target="_blank">View Demo</a>
+                </article>
+                 </div>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="container">
+            <h2>Education</h2>
+            <ul class="education-timeline">
+                <li>
+                    <h3>Bachelor of Technology</h3>
+                    <p>Vignan's University, 2022-2026</p>
+                </li>
+                <li>
+                    <h3>Intermediate</h3>
+                    <p>Narayana junior college,2020-2022</p>
+                </li>
+                <!-- Add more education details as needed -->
+            </ul>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <form action="submit_form.php" method="POST" id="contactForm">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="nameInput" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="emailInput" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="messageInput" name="message" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+          
+        </div>
+    </section>
+
+   <footer>
+    <div class="footer-text">
+        <p>Copyright &copy;2024 by Srinu | All rights reserved.</p>
+    </div>
+</footer>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
